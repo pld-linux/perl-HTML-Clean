@@ -9,7 +9,7 @@ Summary:	HTML::Clean - cleans up HTML code for web browsers, not humans
 Summary(pl):	HTML::Clean - czy¶ci kod w HTML-u z punktu widzenia serwerów WWW
 Name:		perl-HTML-Clean
 Version:	0.8
-Release:	8
+Release:	9
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
