@@ -1,23 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	HTML
 %define		pnam	Clean
-Summary:	HTML::Clean Perl module
-Summary(cs):	Modul HTML::Clean pro Perl
-Summary(da):	Perlmodul HTML::Clean
-Summary(de):	HTML::Clean Perl Modul
-Summary(es):	Módulo de Perl HTML::Clean
-Summary(fr):	Module Perl HTML::Clean
-Summary(it):	Modulo di Perl HTML::Clean
-Summary(ja):	HTML::Clean Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	HTML::Clean ÆÞ ¸ðÁÙ
-Summary(nb):	Perlmodul HTML::Clean
-Summary(pl):	Modu³ Perla HTML::Clean
-Summary(pt):	Módulo de Perl HTML::Clean
-Summary(pt_BR):	Módulo Perl HTML::Clean
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl HTML::Clean
-Summary(sv):	HTML::Clean Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl HTML::Clean
-Summary(zh_CN):	HTML::Clean Perl Ä£¿é
+Summary:	HTML::Clean - cleans up HTML code for web browsers, not humans
+Summary(pl):	HTML::Clean - czy¶ci kod w HTML-u z punktu widzenia serwerów WWW
 Name:		perl-HTML-Clean
 Version:	0.8
 Release:	8
@@ -32,10 +17,14 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-The HTML::Clean module cleans and optimizes HTML documents.
+The HTML::Clean Perl module encapsulates a number of common techniques
+for minimizing the size of HTML files.  You can typically save between
+10% and 50% of the size of a HTML file using these methods.
 
 %description -l pl
-Modu³ HTML::Clean czy¶ci i optymalizuje dokumenty HTML.
+Modu³ Perla HTML::Clean zamyka w sobie kilka ogólnych technik
+minimalizacji rozmiaru plików HTML. Zazwyczaj pozwala on zaoszczêdziæ
+na rozmiarze pliku HTML od 10% do 50%. 
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
