@@ -21,7 +21,8 @@ Summary(zh_CN):	HTML::Clean Perl Ä£¿é
 Name:		perl-HTML-Clean
 Version:	0.8
 Release:	8
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	ee562703b7700c7fd4173f355e83ec2c
