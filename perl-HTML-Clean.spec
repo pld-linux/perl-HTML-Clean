@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	HTML
-%define	pnam	Clean
+%define		pdir	HTML
+%define		pnam	Clean
 Summary:	HTML::Clean - cleans up HTML code for web browsers, not humans
 Summary(pl):	HTML::Clean - czy¶ci kod w HTML-u z punktu widzenia serwerów WWW
 Name:		perl-HTML-Clean
