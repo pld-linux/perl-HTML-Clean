@@ -3,7 +3,7 @@ Summary:	Perl HTML-Clean module
 Summary(pl):	Modu³ Perla HTML-Clean
 Name:		perl-HTML-Clean
 Version:	0.8
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
