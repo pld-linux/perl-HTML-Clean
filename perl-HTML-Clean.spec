@@ -20,11 +20,11 @@ Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl HTML::Clean
 Summary(zh_CN):	HTML::Clean Perl Ä£¿é
 Name:		perl-HTML-Clean
 Version:	0.8
-Release:	7
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl >= 5.6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -39,7 +39,8 @@ Modu³ HTML::Clean czy¶ci i optymalizuje dokumenty HTML.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 
 %install
 rm -rf $RPM_BUILD_ROOT
@@ -53,8 +54,8 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes README TODO
 %attr(755,root,root) %{_bindir}/*
-%{perl_sitelib}/HTML/*.pm
-%dir %{perl_sitelib}/auto/HTML
-%dir %{perl_sitelib}/auto/HTML/Clean
-%{perl_sitelib}/auto/HTML/Clean/autosplit.ix
+%{perl_vendorlib}/HTML/*.pm
+%dir %{perl_vendorlib}/auto/HTML
+%dir %{perl_vendorlib}/auto/HTML/Clean
+%{perl_vendorlib}/auto/HTML/Clean/autosplit.ix
 %{_mandir}/man[13]/*
