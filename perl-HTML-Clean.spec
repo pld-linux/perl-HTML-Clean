@@ -1,13 +1,13 @@
 %include	/usr/lib/rpm/macros.perl
-Summary: 	Perl HTML-Clean module
+Summary:	Perl HTML-Clean module
 Summary(pl):	Modu³ Perla HTML-Clean
-Name: 		perl-HTML-Clean
-Version: 	0.7
-Release: 	3
-Copyright: 	GPL
+Name:		perl-HTML-Clean
+Version:	0.7
+Release:	3
+License:	GPL
 Group:		Development/Languages/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
-Source:		ftp://ftp.perl.org/pub/CPAN/modules/by-module/HTML/HTML-Clean-%{version}.tar.gz
+Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/HTML/HTML-Clean-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.005_03-14
 %requires_eq	perl
