@@ -41,7 +41,7 @@ Modu³ HTML::Clean czy¶ci i optymalizuje dokumenty HTML.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 
 %install
 rm -rf $RPM_BUILD_ROOT
