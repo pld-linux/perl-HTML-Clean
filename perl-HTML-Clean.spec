@@ -10,7 +10,7 @@ Summary(fr):	Module Perl HTML::Clean
 Summary(it):	Modulo di Perl HTML::Clean
 Summary(ja):	HTML::Clean Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	HTML::Clean ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul HTML::Clean
+Summary(nb):	Perlmodul HTML::Clean
 Summary(pl):	Modu³ Perla HTML::Clean
 Summary(pt):	Módulo de Perl HTML::Clean
 Summary(pt_BR):	Módulo Perl HTML::Clean
