@@ -2,10 +2,11 @@
 Summary:	Perl HTML-Clean module
 Summary(pl):	Modu³ Perla HTML-Clean
 Name:		perl-HTML-Clean
-Version:	0.7
-Release:	3
+Version:	0.8
+Release:	1
 License:	GPL
 Group:		Development/Languages/Perl
+Group(de):	Entwicklung/Sprachen/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/HTML/HTML-Clean-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
@@ -30,21 +31,14 @@ perl Makefile.PL
 rm -rf $RPM_BUILD_ROOT
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-(
-  cd $RPM_BUILD_ROOT%{perl_sitearch}/auto/HTML/Clean
-  sed -e "s#$RPM_BUILD_ROOT##" .packlist >.packlist.new
-  mv .packlist.new .packlist
-)
-
-gzip -9nf $RPM_BUILD_ROOT%{_mandir}/man[13]/* \
-	README TODO Changes
+gzip -9nf README TODO Changes
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc {README,TODO,Changes}.gz
+%doc *.gz
 %attr(755,root,root) %{_bindir}/*
 
 %{perl_sitelib}/HTML/*.pm
