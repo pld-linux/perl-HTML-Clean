@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	HTML
 %define	pnam	Clean
-Summary:	Perl HTML-Clean module
-Summary(pl):	Modu³ Perla HTML-Clean
+Summary:	Perl HTML::Clean module
+Summary(pl):	Modu³ Perla HTML::Clean
 Name:		perl-HTML-Clean
 Version:	0.8
 Release:	6
