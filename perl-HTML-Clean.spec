@@ -20,7 +20,7 @@ Summary(uk):	Модуль для Perl HTML::Clean
 Summary(zh_CN):	HTML::Clean Perl дё©И
 Name:		perl-HTML-Clean
 Version:	0.8
-Release:	7
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
