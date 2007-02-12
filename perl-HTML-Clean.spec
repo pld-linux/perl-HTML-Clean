@@ -6,7 +6,7 @@
 %define		pdir	HTML
 %define		pnam	Clean
 Summary:	HTML::Clean - cleans up HTML code for web browsers, not humans
-Summary(pl):	HTML::Clean - czy¶ci kod w HTML-u z punktu widzenia serwerów WWW
+Summary(pl.UTF-8):   HTML::Clean - czyÅ›ci kod w HTML-u z punktu widzenia serwerÃ³w WWW
 Name:		perl-HTML-Clean
 Version:	0.8
 Release:	9
@@ -25,9 +25,9 @@ The HTML::Clean Perl module encapsulates a number of common techniques
 for minimizing the size of HTML files.  You can typically save between
 10% and 50% of the size of a HTML file using these methods.
 
-%description -l pl
-Modu³ Perla HTML::Clean zamyka w sobie kilka ogólnych technik
-minimalizacji rozmiaru plików HTML. Zazwyczaj pozwala on zaoszczêdziæ
+%description -l pl.UTF-8
+ModuÅ‚ Perla HTML::Clean zamyka w sobie kilka ogÃ³lnych technik
+minimalizacji rozmiaru plikÃ³w HTML. Zazwyczaj pozwala on zaoszczÄ™dziÄ‡
 na rozmiarze pliku HTML od 10% do 50%. 
 
 %prep
