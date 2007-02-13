@@ -6,7 +6,7 @@
 %define		pdir	HTML
 %define		pnam	Clean
 Summary:	HTML::Clean - cleans up HTML code for web browsers, not humans
-Summary(pl.UTF-8):   HTML::Clean - czyści kod w HTML-u z punktu widzenia serwerów WWW
+Summary(pl.UTF-8):	HTML::Clean - czyści kod w HTML-u z punktu widzenia serwerów WWW
 Name:		perl-HTML-Clean
 Version:	0.8
 Release:	9
