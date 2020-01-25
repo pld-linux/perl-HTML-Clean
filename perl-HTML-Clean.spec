@@ -4,7 +4,6 @@
 
 %define		pdir	HTML
 %define		pnam	Clean
-%include	/usr/lib/rpm/macros.perl
 Summary:	HTML::Clean - cleans up HTML code for web browsers, not humans
 Summary(pl.UTF-8):	HTML::Clean - czyści kod w HTML-u z punktu widzenia serwerów WWW
 Name:		perl-HTML-Clean
